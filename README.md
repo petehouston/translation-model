@@ -1,6 +1,6 @@
-# Translation model
+# Translation Model
 
-The Waavi/translation package is outdated and the author doesn't seem to work on it.
+The [Waavi/translation](https://github.com/Waavi/translation) package is outdated and the author doesn't seem to work on it.
 So I make this package in order to fix the problem when use this in Laravel 4.2.
 
 **Note**: This should only works for Laravel 4.2 version, not for Laravel 5 since the **SoftDeletingTrait** is removed.
@@ -42,7 +42,7 @@ Now edit the following part in **app/config/packages/waavi/translation/config.ph
 */
 'language'              =>  array(
     'model'     =>  'Language',
-    ),
+),
 ```
 
 into this
@@ -59,7 +59,7 @@ into this
 */
 'language'              =>  array(
     'model'     =>  'Petehouston\Models\Language',
-    ),
+),
 ```
 
 Alright! You're ready to go.
