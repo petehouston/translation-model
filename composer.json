@@ -1,0 +1,21 @@
+{
+    "name": "petehouston/translation-model",
+    "description": "The update Language model to fix the default Waavi Language model compatibility issue in Laravel 4.2.",
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/database": "4.2.*",
+        "waavi/translation": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Petehouston\\Models\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pete Houston",
+            "email": "contact@petehouston.com"
+        }
+    ]
+}
